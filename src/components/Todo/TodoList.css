@@ -1,0 +1,158 @@
+.cont{
+    width: 40%;
+    height: 100%;
+}
+.header{
+    text-align: center;
+    border-bottom: 1px solid #E5E5E5 ;
+}
+
+.header h2{
+   font-size: 24px;
+   line-height: 33px;
+   font-weight: inherit;
+   margin: 30px auto 15px auto;
+} 
+.Content{
+    justify-content: center;
+}
+.search{
+    position: relative; 
+}
+
+.search .btnSearch:hover{
+    background: none !important;
+    border: unset!important;
+    padding: unset!important;
+    outline: none!important;
+}
+.search .btnSearch{
+    position: absolute;
+    top: 10px;
+    left: 16px;     
+    background: none;
+    border: unset;
+    padding: unset;
+    outline: none !important;
+}
+
+.search input {
+    outline: none;
+    border: 1px solid #E5E5E5;
+    padding: 10px 15px 10px 40px;
+    border-radius: 16px;
+    background-color: #E5E5E5;
+    width: 253px;
+    height: 40px;
+}
+
+.button,.button1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 20px;    
+}
+
+.button Button {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    background-color: #EF5350;
+    border: 1px solid #EF5350 ;
+    padding: 7px;
+    
+
+}
+
+.button Button:hover {
+    background-color: #EF5350;
+    border: 1px solid #EF5350 ;
+}
+.button1 Button {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    background-color: #96A1A6;
+    border: 1px solid #96A1A6;
+    padding: 7px 15px;
+}
+
+.button1 Button:nth-child(1) {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    background-color: #EF5350;
+    border: 1px solid #EF5350 ;
+    padding: 7px 15px;
+}
+.boxTask{
+    border: 1px solid #EAEAEA ;
+    margin: 30px 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.itemTask2 {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.itemTask1 input {
+    border: 1px solid;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.boxItem {
+    height: 770px;
+    width: 453px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.boxItem .button img{
+    max-width: 18px;
+    margin-right: 10px;
+}
+.formList .form-group input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: unset;
+    padding: 10px 0;
+}
+.formList label{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: bold;
+    color: #263238;
+ }
+.formList .form-group{
+   margin: 20px 10px;
+}
+#idModal .modal-content{
+    width: 415px;
+    height: 478px;
+}
+#idModal .modal-title{
+    color: #fff;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: bold;
+}
+#idModal .modal-footer{
+    justify-content: space-evenly;
+    border: unset;
+}
+#idModal .modal-footer button{
+    padding: 7px 45px;
+}
+#idModal .modal-footer button:nth-child(1){
+    background: unset;
+    color: #000;
+}
+#idModal .modal-footer button:nth-child(2){
+    background-color: #EF5350;
+
+}
+.btn-primary:focus{
+    
+}
